@@ -232,6 +232,7 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/**/sonarlint/
+.idea
 
 # SonarQube Plugin
 .idea/**/sonarIssues.xml
@@ -240,3 +241,4 @@ fabric.properties
 .idea/**/markdown-navigator.xml
 .idea/**/markdown-navigator/
 
+django-by-example
