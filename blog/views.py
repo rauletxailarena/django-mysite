@@ -86,6 +86,8 @@ def post_detail(request, year, month, day, post_slug):
                    'similar_posts': similar_posts})
 
 
+def say_hello(request):
+    return render(request, 'hello.html')
 
 
 class PostListView(ListView):
